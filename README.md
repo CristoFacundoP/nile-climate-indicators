@@ -15,3 +15,22 @@ Visualization & tools: Scripts and notebooks for bivariate plots, spatial analys
 
 The repo is organized into folders for data, scripts, results, docs, and notebooks.
 All workflows are designed for reproducibility on both local machines and the Alliance Fir cluster.
+
+## 1. Clone the Repository
+# On your local machine or Fir cluster
+git clone https://github.com/CristoFacundoP/nile-climate-indicators.git
+cd nile-climate-indicators
+
+## 2. Set Up the Environment
+module load python/3.11  # on Fir cluster
+conda env create -f environment.yml
+conda activate nile-climate
+
+## 3. Folder Structure
+nile-climate-indicators/
+├── data/          # placeholder only (large data stays in /project/ on cluster or workstation)
+├── scripts/       # analysis scripts
+├── notebooks/     # exploratory notebooks
+├── results/       # plots, summary CSVs
+├── docs/          # project notes & paper outline
+└── environment.yml
