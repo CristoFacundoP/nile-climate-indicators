@@ -16,8 +16,10 @@ Visualization & tools: Scripts and notebooks for bivariate plots, spatial analys
 The repo is organized into folders for data, scripts, results, docs, and notebooks.
 All workflows are designed for reproducibility on both local machines and the Alliance Fir cluster.
 
+# Getting Started
+This project is designed for reproducible workflows on both local machines and the Alliance Fir cluster.
 ## 1. Clone the Repository
-# On your local machine or Fir cluster
+On your local machine or Fir cluster
 git clone https://github.com/CristoFacundoP/nile-climate-indicators.git
 cd nile-climate-indicators
 
